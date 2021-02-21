@@ -12,8 +12,6 @@ Quick Start
 
 **2. Include "soet" to your INSTALLED_APPS:**
 
-.. code-block:: python
-
     INSTALLED_APPS = [
         ...
         'telegram_logger',
@@ -21,14 +19,12 @@ Quick Start
 
 **3. Include "StackOverflowMiddleware" to your MIDDLEWARE_CLASSES:**
 
-.. code-block:: python
 
     MIDDLEWARE_CLASSES = (
         ...
         'telegram_logger.middleware.TelegramLoggerMiddleware',
     )
 
-.. code-block:: python
 
     MIDDLEWARE_CLASSES = (
         ...
@@ -37,7 +33,6 @@ Quick Start
 
 **4. Configuration in your Django settings**
     
-.. code-block:: python
     
     TELEGRAM_LOGGER_CONF = {
         'TOKEN_BOT': <your token here> (REQUIRED) 
@@ -49,7 +44,6 @@ Example
 -----------
 view.py
 
-.. code-block:: python
     
     def test_view(request):
         request.tg_logger.message('1')

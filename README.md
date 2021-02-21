@@ -25,12 +25,6 @@ Quick Start
         'telegram_logger.middleware.TelegramLoggerMiddleware',
     )
 
-
-    MIDDLEWARE_CLASSES = (
-        ...
-        'telegram_logger.middleware.TelegramLoggerMiddleware',
-    )
-
 **4. Configuration in your Django settings**
     
     

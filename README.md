@@ -10,14 +10,14 @@ Quick Start
 
     pip install django-telegram-logger
 
-**2. Include "soet" to your INSTALLED_APPS:**
+**2. Include "telegram_logger" to your INSTALLED_APPS:**
 
     INSTALLED_APPS = [
         ...
         'telegram_logger',
     ]
 
-**3. Include "StackOverflowMiddleware" to your MIDDLEWARE_CLASSES:**
+**3. Include "TelegramLoggerMiddleware" to your MIDDLEWARE_CLASSES:**
 
 
     MIDDLEWARE_CLASSES = (

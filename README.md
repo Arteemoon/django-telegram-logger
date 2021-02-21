@@ -8,8 +8,6 @@ Quick Start
 
 **1. Install using pip:**
 
-.. code-block:: console
-
     pip install django-telegram-logger
 
 **2. Include "soet" to your INSTALLED_APPS:**

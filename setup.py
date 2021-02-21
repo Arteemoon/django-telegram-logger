@@ -7,7 +7,7 @@ setup(
   description = '',
   author = 'Arteemoon',
   author_email = 'ivasheco45@gmail.com',
-  url = 'https://github.com/Arteemoon',
+  url = 'https://github.com/Arteemoon/django-telegram-logger',
   download_url = 'https://github.com/Arteemoon/django-telegram-logger/archive/v_01.tar.gz',
   keywords = ['logger', 'telegram', 'django'],
   install_requires=[

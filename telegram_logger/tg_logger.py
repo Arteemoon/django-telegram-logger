@@ -9,8 +9,7 @@ class TGLogger(object):
     def __iter__(self):
         self._to_response = not self._to_response
         if self._to_response:
-            iter_obj = iter(self._messages)
-            return iter_obj
+            return iter(self._messages)
         return iter([])
 
     def __delitem__(self, index):
